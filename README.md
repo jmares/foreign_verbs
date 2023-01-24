@@ -18,6 +18,7 @@ PS: I also want to apply what I recently learned in [Version Control with Git](h
 
 ### Dependencies
 
+- [MSMTP](https://wiki.archlinux.org/title/msmtp)
 
 ### Installing
 
@@ -37,9 +38,9 @@ PS: I also want to apply what I recently learned in [Version Control with Git](h
 
 My first thought was designing a relational database for storing the different tenses of hundreds verbs, maybe even for multiple languages. That is overkill. I only have 2 dozen of verbs, so a quick and dirty proof of concept for a dozen verbs stored in flat files, makes more sense.
 
-- [ ] prepare a dozen flat files with verbes conjugated in the present tense
-- [ ] read the list and randomly pick one file/verb
-- [ ] send content of file via email using `msmtp`
+- [x] prepare a dozen flat files with verbes conjugated in the present tense
+- [x] read the list and randomly pick one file/verb
+- [x] send content of file via email using `msmtp`
 
 ## License
 
